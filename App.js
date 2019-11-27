@@ -11,13 +11,13 @@ import {
   StatusBar,
 } from 'react-native';
 
-import HomeScreen from './src/features/home/HomeScreen'
+import AppNavigator from './src/components/router/router'
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <HomeScreen />
+      <AppNavigator />
     </>
   );
 };

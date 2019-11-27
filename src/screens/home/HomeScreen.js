@@ -9,7 +9,7 @@
 import React, { Component } from 'react';
 import {
   Platform, Image, StyleSheet, Text, View, Dimensions,
-  ImageBackground, ProgressViewIOS, ProgressBarAndroid
+  ImageBackground, ProgressViewIOS, ProgressBarAndroid, Button
 } from 'react-native';
 import Header from './HomeHeader';
 import backgroundImage from '../../assets/images/general/background.png';
@@ -185,34 +185,37 @@ export default class HomeScreen extends Component {
                     textAlign: 'right',
                   }}
                 >Dự sinh: </Text> */}
-                <View 
+                <View
                   style={{
                     flex: 1,
                   }}
                 />
-                <View 
+                <View
                   style={{
                     borderColor: 'black',
                     borderWidth: 1,
                     flex: 1,
                   }}
                 >
-                  <View 
-                  style={{
-                    borderColor: 'black',
-                    borderWidth: 1,
-                    flex: 1,
-                  }}
-                >
-                </View>
-                <View 
-                  style={{
-                    borderColor: 'black',
-                    borderWidth: 1,
-                    flex: 1,
-                  }}
-                >
-                </View>
+                  <View
+                    style={{
+                      borderColor: 'black',
+                      borderWidth: 1,
+                      flex: 1,
+                    }}
+                  >
+                  </View>
+                  <View
+                    style={{
+                      borderColor: 'black',
+                      borderWidth: 1,
+                      flex: 1,
+                    }}
+                  >
+                    <Button title="Go to Detail screen"
+                      onPress={() => this.props.navigation.navigate('Detail')}
+                    />
+                  </View>
                 </View>
 
               </View>
