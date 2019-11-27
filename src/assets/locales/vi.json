@@ -1,0 +1,142 @@
+{
+    "drawer": {
+        "header" : {
+            "welcome" : "Xin Chào",
+            "signin": "Đăng nhập"
+        },
+        "content" : {
+            "order_history": "Lịch sử mua hàng",
+            "my_product": "Sản phẩm của tôi",
+            "wishlist": "Sản phẩm yêu thích",
+            "my_comments": "Bình luận của tôi",
+            "support": "Hỗ trợ",
+            "hotline": "Đường dây nóng: 1800 - 6963\n(Miễn phí)",
+            "settings": "Cài đặt",
+            "signout": "THOÁT"
+        }
+    },
+    "my_profile": {
+        "my_profile": "Hồ sơ của tôi",
+        "full_name": "Họ và tên",
+        "enter_your_full_name": "Nhập họ và tên của bạn",
+        "email": "Email",
+        "enter_your_email": "Nhập email của bạn",
+        "mobile": "Số điện thoại",
+        "enter_your_mobile": "Nhập số điện thoại của bạn",
+        "country": "Quốc gia",
+        "enter_your_country": "Nhập quốc gia",
+        "state_province": "Tỉnh/ Thành phố",
+        "enter_your_state_province": "Nhập tỉnh/ thành phố",
+        "city": "Thành phố",
+        "enter_your_city": "Nhập thành phố",
+        "address_line_1": "Địa chỉ 1",
+        "enter_your_address_line_1": "Nhập địa chỉ 1",
+        "address_line_2": "Địa chỉ 2",
+        "enter_your_address_line_2": "Nhập địa chỉ 2",
+        "update_your_informations": "Cập nhật thông tin của bạn",
+        "invalid_email": "Sai email"
+    },
+    "shop": {
+        "bottom_tabbar": {
+            "home": "Trang chủ",
+            "search": "Tìm kiếm",
+            "cart": "Giỏ hàng",
+            "notification": "Thông báo"
+        },
+        "home" : {
+            "collection" : {
+                "spring_collection": "BỘ SƯU TẬP"
+            },
+            "category" : {
+                "list_of_category": "DANH SÁCH DANH MỤC"
+            },
+            "top_product": {
+                "top_product": "SẢN PHẨM HÀNG ĐẦU"
+            }
+        },
+        "search": {
+            "show_detail": "CHI TIẾT",
+            "quantity": "Số lượng"
+        },
+        "cart": {
+            "cart": "Giỏ hàng",
+            "show_detail": "CHI TIẾT",
+            "total_checkout_now": "TỔNG TIỀN THANH TOÁN: {{price}} {{unit}}",
+            "your_cart_is_empty": "Giỏ hàng của bạn đang trống",
+            "confirm_order" : "Xác nhận mua hàng",
+            "shipping_and_payment": {
+                "shipping_and_payment_options": "Phương thức giao hàng, thanh toán",
+                "select_shipping_options": "Lựa chọn hình thức giao hàng",
+                "select_payment_options": "Lựa chọn hình thức thanh toán",
+                "promo_code": "Mã giảm giá",
+                "promo_code_description": "Nếu bạn có mã giảm giá, hãy nhập nó vào đây. Một mã giảm giá chỉ dành cho mỗi đơn hàng. Ưu đãi không thể kết hợp.",
+                "promo_code_placeholder": "Nhập mã giảm giá của bạn",
+                "continue": "Tiếp tục"
+            },
+            "shipping_address": {
+                "shipping_address": "Địa chỉ gửi hàng",
+                "full_name": "Họ và tên",
+                "enter_your_full_name": "Nhập họ và tên",
+                "country": "Quốc gia",
+                "enter_your_country": "Nhập quốc gia",
+                "state_province": "Tỉnh/ Thành phố",
+                "enter_your_state_province": "Nhập tỉnh/ thành phố",
+                "city": "Thành phố",
+                "enter_your_city": "Nhập thành phố",
+                "address_line_1": "Địa chỉ 1",
+                "enter_your_address_line_1": "Nhập địa chỉ 1",
+                "address_line_2": "Địa chỉ 2 (tuỳ chọn)",
+                "enter_your_address_line_2": "Nhập địa chỉ 2",
+                "postal_code": "Mã bưu điện (tuỳ chọn)",
+                "enter_your_postal_code": "Nhập mã bưu điện",
+                "mobile": "Số điện thoại",
+                "enter_your_mobile": "Nhập số điện thoại của bạn",
+                "comments": "Ghi chú",
+                "enter_comments": "Nhập ghi chú",
+                "continue": "Tiếp tục"
+            },
+            "billing_address": {
+                "billing_address": "Địa chỉ lập hoá đơn",
+                "full_name": "Họ và tên",
+                "enter_your_full_name": "Nhập họ và tên",
+                "address_line_1": "Địa chỉ 1",
+                "enter_your_address_line_1": "Nhập địa chỉ 1",
+                "address_line_2": "Địa chỉ 2 (tuỳ chọn)",
+                "enter_your_address_line_2": "Nhập địa chỉ 2",
+                "postal_code": "Mã bưu điện (tuỳ chọn)",
+                "enter_your_postal_code": "Nhập mã bưu điện",
+                "company": "Công ty",
+                "enter_company": "Nhập tên công ty",
+                "continue": "Tiếp tục"
+            }
+        },
+        "notifications": {
+            "notifications": "Thông báo"
+        }
+    },
+    "header_search": {
+        "let_go_to_shopping": "Cùng nhau mua sắm",
+        "what_do_you_want_to_buy": "Bạn muốn mua những gì?"
+    },
+    "authentication" : {
+        "authentication": "Đăng nhập - Đăng ký",
+        "enter_your_email": "Nhập email",
+        "enter_your_password": "Nhập mật khẩu",
+        "sign_in_now": "ĐĂNG NHẬP",
+        "enter_your_name": "Nhập tên",
+        "re-enter_your_password": "Nhập lại mật khẩu",
+        "sign_up_now": "ĐĂNG KÝ",
+        "email_cannot_be_empty": "Bạn chưa nhập email",
+        "password_cannot_be_empty": "Bạn chưa nhập mật khẩu",
+        "email_is_incorrect": "Email của bạn chưa đúng",
+        "sign_in": "ĐĂNG NHẬP",
+        "sign_up": "ĐĂNG KÝ",
+        "please_login_to_continue": "Vui lòng đăng nhập để tiếp tục"
+    },
+    "general": {
+        "currency": {
+            "unit":"VNĐ ",
+            "price_within_unit": "{{price}} VNĐ"
+        }
+    }
+}

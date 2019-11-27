@@ -1,0 +1,143 @@
+{
+    "drawer": {
+        "header" : {
+            "welcome" : "Welcome to eShop",
+            "signin": "Sign In"
+        },
+        "content" : {
+            "order_history": "Order History",
+            "my_product": "My Product",
+            "wishlist": "Wishlist",
+            "my_comments": "My comments",
+            "support": "Support",
+            "hotline": "HOT LINE: 1800 - 6963 (Free)",
+            "settings": "Settings",
+            "signout": "SIGN OUT"
+        }
+    },
+    "my_profile": {
+        "my_profile": "My Profile",
+        "full_name": "Full name",
+        "enter_your_full_name": "Entrer your fullname",
+        "email": "Email",
+        "enter_your_email": "Entrer your email",
+        "mobile": "Mobile",
+        "enter_your_mobile": "Entrer your mobile",
+        "country": "Country",
+        "enter_your_country": "Entrer your country",
+        "state_province": "State/Province",
+        "enter_your_state_province": "Entrer your state/province",
+        "city": "City",
+        "enter_your_city": "Entrer your city",
+        "address_line_1": "Address line 1",
+        "enter_your_address_line_1": "Entrer your your address 1",
+        "address_line_2": "Address line 2",
+        "enter_your_address_line_2": "Entrer your your address 2",
+        "update_your_informations": "Update your informations",
+        "invalid_email": "Invaild email"
+    },
+    "shop": {
+        "bottom_tabbar": {
+            "home": "Home",
+            "search": "Search",
+            "cart": "Cart",
+            "notification": "Notification"
+        },
+        "home" : {
+            "collection" : {
+                "spring_collection": "SPRING COLLECTION"
+            },
+            "categories" : {
+                "list_of_category": "LIST OF CATEGORY",
+                "view_more": "View more..."
+            },
+            "top_product": {
+                "top_product": "TOP PRODUCT"
+            }
+        },
+        "search": {
+            "show_detail": "SHOW DETAIL",
+            "quantity": "Quantity"
+        },
+        "cart": {
+            "cart": "Cart",
+            "show_detail": "SHOW DETAIL",
+            "total_checkout_now": "TOTAL {{unit}}{{price}} CHECKOUT NOW",
+            "your_cart_is_empty": "Your cart is empty",
+            "confirm_order" : "Confirm order",
+            "shipping_and_payment": {
+                "shipping_and_payment_options": "Shipping and Payment options",
+                "select_shipping_options": "Select shipping options",
+                "select_payment_options": "Select payment options",
+                "promo_code": "Promo Code",
+                "promo_code_description": "If you have a promo code, enter it here. One promo code per order. Offers cannot be combined.",
+                "promo_code_placeholder": "Enter your promo code",
+                "continue": "Continue"
+            },
+            "shipping_address": {
+                "shipping_address": "Shipping address",
+                "full_name": "Full name",
+                "enter_your_full_name": "Entrer your fullname",
+                "country": "Country",
+                "enter_your_country": "Entrer your country",
+                "state_province": "State/Province",
+                "enter_your_state_province": "Entrer your state/province",
+                "city": "City",
+                "enter_your_city": "Entrer your city",
+                "address_line_1": "Address line 1",
+                "enter_your_address_line_1": "Entrer your your address 1",
+                "address_line_2": "Address line 2 (optional)",
+                "enter_your_address_line_2": "Entrer your your address 2",
+                "postal_code": "Postal Code (optional)",
+                "enter_your_postal_code": "Enter postal code",
+                "mobile": "Phone",
+                "enter_your_mobile": "Enter your phone number",
+                "comments": "Comments",
+                "enter_comments": "Enter your comments",
+                "continue": "Continue"
+            },
+            "billing_address": {
+                "billing_address": "Shipping address",
+                "full_name": "Full name",
+                "enter_your_full_name": "Entrer your fullname",
+                "address_line_1": "Address line 1",
+                "enter_your_address_line_1": "Entrer your your address 1",
+                "address_line_2": "Address line 2 (optional)",
+                "enter_your_address_line_2": "Entrer your your address 2",
+                "postal_code": "Postal Code (optional)",
+                "enter_your_postal_code": "Enter postal code",
+                "company": "Company",
+                "enter_company": "Enter your company",
+                "continue": "Continue"
+            }
+        },
+        "notifications": {
+            "notifications": "Notifications"
+        }
+    },
+    "header_search": {
+        "let_go_to_shopping": "Let's go shopping",
+        "what_do_you_want_to_buy": "What do you want to buy?"
+    },
+    "authentication" : {
+        "authentication": "Authentication",
+        "enter_your_email": "Enter your email",
+        "enter_your_password": "Enter your password",
+        "sign_in_now": "SIGN IN NOW",
+        "enter_your_name": "Enter your name",
+        "re-enter_your_password": "Re-enter your password",
+        "sign_up_now": "SIGN UP NOW",
+        "email_cannot_be_empty": "Email cannot be empty",
+        "password_cannot_be_empty": "Password cannot be empty",
+        "email_is_incorrect": "Email is incorrect",
+        "sign_in": "SIGN IN",
+        "sign_up": "SIGN UP",
+        "please_login_to_continue": "Please login to continue"
+    },
+    "general": {
+        "currency": {
+            "unit":"$",
+            "price_within_unit": "${{price}}"
+        }
+    }
+}
