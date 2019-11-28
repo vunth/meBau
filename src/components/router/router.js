@@ -1,8 +1,10 @@
-import {createStackNavigator} from 'react-navigation-stack';
+import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 import Home from '../../screens/home/HomeScreen';
 import Detail from '../../screens/detail/DetailScreen';
-const navigator= createStackNavigator({
+import Setting from '../../screens/setting/settingScreen';
+const homeNavigatorStack= createStackNavigator({
   Home: {
    screen: Home
   },
@@ -10,4 +12,30 @@ const navigator= createStackNavigator({
     screen: Detail
    },
 });
-export default createAppContainer(navigator);
+
+const settingNavigatorStack= createStackNavigator({
+  Setting: {
+   screen: Setting
+  },
+  Detail: {
+    screen: Detail
+   },
+});
+
+const appNavigator = createBottomTabNavigator(
+  {
+    Home: {
+      screen: homeNavigatorStack,
+      navigationOptions: {
+        title: "Home"
+      }
+    },
+    Setting: {
+      screen: settingNavigatorStack,
+      navigationOptions: {
+        title: "Setting"
+      }
+    }
+  }
+);
+export default createAppContainer(homeNavigatorStack);
